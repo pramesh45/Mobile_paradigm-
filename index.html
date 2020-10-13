@@ -1,229 +1,48 @@
 <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+  <div class="container">
+    <div class="sub-container">
 
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home page</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <ul>
-<li class="logo">Logo</li>
-<li class="btn"><span class="fas fa-bars"></span></li>
-            <div class="items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            </div>
-<li class="search-icon">
-          <input type="search" placeholder="Search">
-          <label class="icon">
-            <span class="fas fa-search"></span>
-          </label>
-        </li>
-</ul>
-</nav>
-<!-- listview and grid view -->
-  <div class="body-content">
+                                <div class="imgcontainer">
+                                  <img src="image/c.png" alt="Avatar" class="avatar">
+                                </div>
 
-    <div class="wrapper">
-                    <div class="links">
-                      <ul>
-                        <li data-view="list-view" class="li-list active">
-                        <i class="fas fa-th-list"></i>
-                        List View</li>
-                        <li data-view="grid-view" class="li-grid">
-                        <i class="fas fa-th-large"></i>
-                        Grid View</li>
-                      </ul>
-                    </div>
-       <div class="view_main">
-          <div class="view_wrap list-view" style="display: block;">
-
-               <!--    Quick meal -->
-                  <div class="view_item">
-                    <div class="vi_left">
-                      <img src="image/quick.jpg" alt="tomato">
-                    </div>
-                    <div class="vi_right">
-                      <p class="title">Quick Meal</p>
-                      <p class="content"> Amazingly Quick Dinners For Busy Weeknights. </p>
-                      <div class="btn" onclick= "location.href='quickmeal.html';">View More</div>
-                    </div>
-                  </div>
-
-            <!-- Favourate meal -->
-            <div class="view_item">
-              <div class="vi_left">
-                <img src="image/fav.jpg" alt="chilli">
-              </div>
-              <div class="vi_right">
-                <p class="title">Favorite Meal</p>
-                <p class="content"> Amazingly Quick Dinners For Busy Weeknights.</p>
-                <div class="btn">View More</div>
-              </div>
-            </div>
-
-      <!-- Recomended meal -->
-                  <div class="view_item">
-                    <div class="vi_left">
-                      <img src="image/rec.jpg" alt="carrot">
-                    </div>
-                    <div class="vi_right">
-                      <p class="title">Recomended Meal</p>
-                      <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-                      <div class="btn">View More</div>
-                    </div>
-                  </div>
-
-          <div class="view_item">
-            <div class="vi_left">
-              <img src="image/lunc.jpg" alt="onion">
-            </div>
-            <div class="vi_right">
-              <p class="title">Lunch</p>
-              <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-              <div class="btn">View More</div>
-            </div>
-          </div>
-
-                <div class="view_item">
-                  <div class="vi_left">
-                    <img src="image/dinner.jpg" alt="potato">
-                  </div>
-                  <div class="vi_right">
-                    <p class="title">Dinner</p>
-                    <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-                    <div class="btn">View More</div>
-                  </div>
-                </div>
-    </div>
-
-   <!--  Grid view -->
-
-    <div class="view_wrap grid-view" style="display: none;">
-              <div class="view_item">
-                <div class="vi_left">
-                  <img src="image/quick.jpg" alt="tomato">
-                </div>
-                <div class="vi_right">
-                  <p class="title">Quick Meal</p>
-                  <p class="content"> Amazingly Quick Dinners For Busy Weeknights. </p>
-                  <div class="btn"> <a href="quick">  View More </a></div>
-                </div>
-              </div>
-
-                  <div class="view_item">
-                    <div class="vi_left">
-                      <img src="image/fav.jpg" alt="chilli">
-                    </div>
-                    <div class="vi_right">
-                      <p class="title">Favorite Meal</p>
-                      <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-                      <div class="btn" >View More</div>
-                    </div>
-                  </div>
-
-              <div class="view_item">
-                <div class="vi_left">
-                  <img src="image/rec.jpg" alt="carrot">
-                </div>
-                <div class="vi_right">
-                  <p class="title">Recomended Meal</p>
-                  <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-                  <div class="btn">View More</div>
-                </div>
-              </div>
+                                <!-- <div class="container"> -->
+                                  <div class ="login-form">
+                                      <form action="home.html" method="post">
+                                    <div class= "input-fields">
+                                  <label  style="color:#000" >Username</label>
+                                  <input type="text"  class="input" placeholder="Enter Username"    name="uname"  required style="color: #000;">
+                                </div>
 
 
-     <div class="view_item">
-        <div class="vi_left">
-          <img src="image/lunc.jpg" alt="onion">
-        </div>
-        <div class="vi_right">
-          <p class="title">Lunch</p>
-          <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-          <div class="btn">View More</div>
-        </div>
-      </div>
-
-                   <div class="view_item">
-                    <div class="vi_left">
-                      <img src="image/dinner.jpg" alt="potato">
-                    </div>
-                    <div class="vi_right">
-                      <p class="title">Dinner</p>
-                      <p class="content">Amazingly Quick Dinners For Busy Weeknights.</p>
-                      <div class="btn">View More</div>
-                    </div>
-                  </div>
-    </div>
+                                      <div class="input-fields">
+                                  <label style="color:#000">Password</label>
+                                  <input type="password" class="input" placeholder="Enter Password"  name="psw" required  style="color: #000;">
+                                      </div>
 
 
-    </div>
-  </div>
+                                  <button type="submit">Login</button>
+                                  <label>
+                                    <input type="checkbox" checked="checked" name="remember" > <b style="color:#000">  Remember me </b>
+                                  </label>
+                                  </form>
+                                <!-- </div> -->
 
 
-  <!-- footer -->
+                                 <div class="forgot" style="margin-top: 10px; ">
+                                              <a href="#">Forgot Password?</a>
+                                            </div>
+                              </div>
 
-
-  <footer class="footer-distributed">
-                  <div class="footer-center">
-                    <div>
-                      <i class="fa fa-map-marker"></i>
-                        <p><span> Northern territory Australia</span></p>
-                    </div>
-
-                    <div>
-                      <i class="fa fa-phone"></i>
-                      <p>(08) 8946 6666</p>
-                    </div>
-                    <div>
-                      <i class="fa fa-envelope"></i>
-                      <p><a href="#">support@gmail.com</a></p>
-                    </div>
-                  </div>
-                  <div class="footer-right">
-                    <p class="footer-company-about">
-                      <span>About the company</span>
-                      Eat healthy stay healthy</p>
-                    <div class="footer-icons">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                      <a href="#"><i class="fa fa-youtube"></i></a>
-                    </div>
-                  </div>
-    </footer>
-
-
+</div>
 </div>
 
 
 
-
-
-
-
-<script src="scripts.js"></script>
-
-<script>
-      $('nav ul li.btn span').click(function(){
-        $('nav ul div.items').toggleClass("show");
-        $('nav ul li.btn span').toggleClass("show");
-      });
-    </script>
-
-
-
-
-
-  </body>
+</body>
 </html>
