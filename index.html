@@ -25,9 +25,7 @@
                                   <input type="password" class="input" placeholder="Enter Password"  name="psw" required  style="color: #000;">
                                       </div>
 
-                                    <form  action="index.html" >
 
-                                    </form>
 
 
                                   <button type="submit">Login</button>
@@ -45,7 +43,12 @@
 
 </div>
 </div>
-
+<script>
+      $('nav ul li.btn span').click(function(){
+        $('nav ul div.items').toggleClass("show");
+        $('nav ul li.btn span').toggleClass("show");
+      });
+    </script>
 
 
 </body>
