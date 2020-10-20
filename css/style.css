@@ -422,141 +422,6 @@ img {
 
 
 
-/*Listview and gride view*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
-
-*{
-  list-style: none;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-.view_item img{
-  width: 75px;
-}
-
-.wrapper{
-  width: 800px;
-  margin: 20px auto;
-}
-
-.links{
-  margin-bottom: 25px;
-  background: #fff;
-  padding: 15px;
-  border-radius: 3px;
-}
-
-.links ul{
-  display: flex;
-  justify-content: center;
-}
-
-.links ul li{
-  margin: 0 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.links ul li:hover,
-.links ul li.active{
-  color: #4abd3e;
-}
-
-.view_main{
-  background: #fff;
-  border-radius: 3px;
-  padding: 15px;
-}
-
-.list-view .view_item {
-  background: #fff;
-  border: 1px solid #e2efe1;
-  margin: 10px;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-}
-
-.list-view .view_item:last-child{
-  margin-bottom: 0;
-}
-
-.list-view .view_item .vi_left{
-  margin-right: 25px;
-}
-
-.view_item .title{
-  color: #000;
-  font-weight: 600;
-  text-align: left;
-
-}
-
-.view_item .content{
-  color: #000;
-  margin: 5px 0;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 200;
-}
-
-.view_item .btn{
-  width: 125px;
-  background: #4abd3e;
-  padding: 8px 5px;
-  border-radius: 3px;
-  color: #fff;
-  text-align: center;
-  font-weight: 200;
-  cursor: pointer;
-}
-
-.view_item .btn:hover{
-  background: #3bd62b;
-}
-
-.grid-view{
-  width: 100%;
-}
-
-.grid-view .view_item {
-  display: inline-block;
-    border: 1px solid #e2efe1;
-    width: 230px;
-    padding: 25px;
-    text-align: center;
-    margin: 10px;
-}
-
-.grid-view .view_item .vi_left{
-  margin-bottom: 10px;
-}
-
-.grid-view .view_item .btn{
-  margin: 0 auto;
-}
-
-
-@media screen and (max-width: 768px){
- .body-content{
-  width: 100%;
-  margin: 0 auto;
-   }
-   .wrapper{
-    display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-
-}
-
 
 /*footer*/
 
@@ -590,16 +455,16 @@ img {
 
 }
 
-.footer-distributed h3{
-  color:  #ffffff;
-  font: normal 36px 'Cookie', cursive;
-  margin: 0;
-}
 
 /* The company logo */
 
 .footer-distributed .footer-left img{
   width: 30%;
+}
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
 }
 
 .footer-distributed h3 span{
@@ -669,7 +534,7 @@ img {
 }
 
 .footer-distributed .footer-center p a{
-  color:  #e0ac1c;
+  color:  #5383d3;
   text-decoration: none;;
 }
 
@@ -783,7 +648,7 @@ img {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 420px){
  .body-content{
   width: 100%;
   margin: 0 auto;
