@@ -4,53 +4,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-  <div class="container">
-    <div class="sub-container">
+  <div class="body-header">
 
-                                <div class="imgcontainer">
-                                  <img src="image/c.png" alt="Avatar" class="avatar">
+    <div class="container" >
+      <div class="sub-container">
+
+                                  <div class="imgcontainer">
+                                    <picture>
+                                    <img src="image/logo.jpg" alt="Avatar" class="avatar">
+                                  </picture>
+                                  </div>
+
+                                  <!-- <div class="container"> -->
+                                    <div class ="login-form">
+
+                                      <div class= "input-fields">
+                                    <label  style="color:#000" >Username</label>
+                                    <input type="text"  class="input" placeholder="Enter Username"    name="uname"  required style="color: #000;">
+                                  </div>
+
+
+                                        <div class="input-fields">
+                                    <label style="color:#000">Password</label>
+                                    <input type="password" class="input" placeholder="Enter Password"  name="psw" required  style="color: #000;">
+                                        </div>
+  
+
+                                    <button onclick="onbutton()">Login</button>
+                                    <label>
+                                      <input type="checkbox" checked="checked" name="remember" > <b style="color:#000">  Remember me </b>
+                                    </label>
+
+                                  <!-- </div> -->
+
+
+                                   <div class="forgot" style="margin-top: 10px; ">
+                                                <a href="#">Forgot Password?</a>
+                                              </div>
                                 </div>
 
-                                <!-- <div class="container"> -->
-                                  <div class ="login-form">
-                                      <form action="home.html" method="post">
-                                    <div class= "input-fields">
-                                  <label  style="color:#000" >Username</label>
-                                  <input type="text"  class="input" placeholder="Enter Username"    name="uname"  required style="color: #000;">
-                                </div>
+  </div>
+  </div>
+  </div>
+  <script >
+    function onbutton(){
 
-
-                                      <div class="input-fields">
-                                  <label style="color:#000">Password</label>
-                                  <input type="password" class="input" placeholder="Enter Password"  name="psw" required  style="color: #000;">
-                                      </div>
-
-
-
-
-                                  <button type="submit">Login</button>
-
-                                  <label>
-                                    <input type="checkbox" checked="checked" name="remember" > <b style="color:#000">  Remember me </b>
-                                  </label>
-                                  </form>
-                                <!-- </div> -->
-
-
-                                 <div class="forgot" style="margin-top: 10px; ">
-                                              <a href="#">Forgot Password?</a>
-                                            </div>
-                              </div>
-
-</div>
-</div>
-<script>
-      $('nav ul li.btn span').click(function(){
-        $('nav ul div.items').toggleClass("show");
-        $('nav ul li.btn span').toggleClass("show");
-      });
-    </script>
-
+  document.location.href="Home.html";
+    }
+  </script>
 
 </body>
 </html>
